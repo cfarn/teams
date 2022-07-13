@@ -3,7 +3,7 @@ import React from 'react'
 class TeamInfo extends React.Component {
     render() {
         return (
-            <div className='card col-5'>
+            <div className='card col-3'>
                 <img src= {this.props.crestUrl} className="card-img-top" alt="team"/> 
                 <div className="card-body">
                     <h5 className="card-title">{this.props.shortName}</h5>
